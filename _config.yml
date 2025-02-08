@@ -12,16 +12,16 @@ paginate_path: "/blog/page:num/"
 social:
   email: 
     visibility: true
-    mail: contact@arnob.me
+    mail: zoelam1215@outlook.com
   github: 
     visibility: true
-    handle: arnobk
+    handle: zl0618
   linkedin: 
     visibility: true
-    handle: arnobkarmokar
+    handle: zl0618
   twitter: 
-    visibility: true
-    handle: arnobdotme
+    visibility: false
+    handle: something
 
 # Collections
 collections:
@@ -52,30 +52,30 @@ collections:
 
 # About Page Options
 collection_option:
+  projects: 
+    label: Projects
+    visibility: true
   experience: 
     label: Experience
     visibility: true
   education: 
     label: Education
-    visibility: true
-  projects: 
-    label: Projects
-    visibility: true
+    visibility: false
   skills: 
-    label: Technical Skills
+    label: Skills
     visibility: true
   publications: 
     label: Publications
-    visibility: true
+    visibility: false
   volunteerexperience: 
     label: Volunteer Experience
-    visibility: true
+    visibility: false
   certifications: 
     label: Certifications
     visibility: true
   achievements: 
     label: Achievements
-    visibility: true
+    visibility: false
 
 navigation:
 - title: About
