@@ -21,6 +21,25 @@ a:hover {
 
 }
 
+.ap-header {
+    display: flex;
+    align-items: center;
+}
+
+.ap-header .ap-avater {
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.ap-header-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.ap-social-header ul {
+    display: flex;
+    gap: 10px; /* Adjust the space between buttons as needed */
+}
+
 .ap-container {
     width: 90%;
     max-width: 600px;
