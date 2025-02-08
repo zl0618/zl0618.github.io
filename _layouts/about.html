@@ -5,6 +5,27 @@ layout: default
     {{site.career-objective}}
 </div>
 
+{% if site.collection_option['projects']['visibility'] == true %}
+<div class="ap-line"></div>
+<!-- PROJECTS -->
+<div class="ap-block">
+    <p class="ap-subtitle">{{site.collection_option['projects']['label']}}</p>
+    {% for project in site.projects reversed %}
+    <div class="ap-project">
+        <a class="ap-project-title" href="{{project.url}}">{{project.title}}</a>
+        <p class="ap-project-year">{{project.year}}</p>
+        <p class="ap-project-excerpt">{{project.excerpt}}</p>
+        <p class="ap-project-tags">
+            {% for tag in project.tags %}
+            <span class="ap-project-chip">{{tag}}</span>
+            {% endfor %}
+        </p>
+    </div>
+    {% endfor %}
+
+</div>
+{% endif %}
+
 {% if site.collection_option['experience']['visibility'] == true %}
 <div class="ap-line"></div>
 <!-- WORK EXPERIENCE -->
@@ -22,23 +43,6 @@ layout: default
         </p>
     </div>
     {% endfor %}
-</div>
-{% endif %}
-
-{% if site.collection_option['education']['visibility'] == true %}
-<div class="ap-line"></div>
-<!-- EDUCATION -->
-<div class="ap-block">
-    <p class="ap-subtitle">{{site.collection_option['education']['label']}}</p>
-    {% for education in site.education %}
-    <div class="ap-education">
-        <p class="ap-education-degree">{{education.degree}}</p>
-        <p class="ap-education-institute">{{education.institute}}</p>
-        <p class="ap-education-year">{{education.duration}}</p>
-        <p class="ap-education-excerpt">{{education.excerpt}}</p>
-    </div>
-    {% endfor %}
-
 </div>
 {% endif %}
 
@@ -60,21 +64,17 @@ layout: default
 </div>
 {% endif %}
 
-{% if site.collection_option['projects']['visibility'] == true %}
+{% if site.collection_option['education']['visibility'] == true %}
 <div class="ap-line"></div>
-<!-- PROJECTS -->
+<!-- EDUCATION -->
 <div class="ap-block">
-    <p class="ap-subtitle">{{site.collection_option['projects']['label']}}</p>
-    {% for project in site.projects reversed %}
-    <div class="ap-project">
-        <a class="ap-project-title" href="{{project.url}}">{{project.title}}</a>
-        <p class="ap-project-year">{{project.year}}</p>
-        <p class="ap-project-excerpt">{{project.excerpt}}</p>
-        <p class="ap-project-tags">
-            {% for tag in project.tags %}
-            <span class="ap-project-chip">{{tag}}</span>
-            {% endfor %}
-        </p>
+    <p class="ap-subtitle">{{site.collection_option['education']['label']}}</p>
+    {% for education in site.education %}
+    <div class="ap-education">
+        <p class="ap-education-degree">{{education.degree}}</p>
+        <p class="ap-education-institute">{{education.institute}}</p>
+        <p class="ap-education-year">{{education.duration}}</p>
+        <p class="ap-education-excerpt">{{education.excerpt}}</p>
     </div>
     {% endfor %}
 
