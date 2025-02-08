@@ -136,8 +136,9 @@ a:hover {
 
 .ap-experience-title {
     font-family: "DM Sans", sans-serif;
+    font-weight: bold;
     font-size: 18px;
-    font-weight: 600;
+    color: #002147; /* Oxford blue color */
 }
 
 .ap-experience-title a {
@@ -208,9 +209,9 @@ a:hover {
 
 .ap-skill-category {
     font-family: "DM Sans", sans-serif;
+    font-weight: bold;
     font-size: 18px;
-    font-weight: 600;
-    margin-top: 8px;
+    color: #002147; /* Oxford blue color */
 }
 
 .ap-skill-tags {
@@ -234,10 +235,9 @@ a:hover {
 
 .ap-project-title {
     font-family: "DM Sans", sans-serif;
+    font-weight: bold;
     font-size: 18px;
-    font-weight: 600;
-    color: $link !important;
-    text-decoration: none;
+    color: #002147; /* Oxford blue color */
 }
 
 .ap-project-title:hover {
@@ -313,10 +313,9 @@ a:hover {
 
 .ap-certification-title {
     font-family: "DM Sans", sans-serif;
+    font-weight: bold;
     font-size: 18px;
-    font-weight: 600;
-    color: $link !important;
-    text-decoration: none;
+    color: #002147; /* Oxford blue color */
 }
 
 .ap-certification-title:hover {
