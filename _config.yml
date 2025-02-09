@@ -19,9 +19,9 @@ social:
   linkedin: 
     visibility: true
     handle: zl0618
-  twitter: 
-    visibility: false
-    handle: something
+  medium:
+    visibility: true
+    handle: zoelam1215_35712
 
 # Collections
 collections:
