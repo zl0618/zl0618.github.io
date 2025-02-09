@@ -1,5 +1,5 @@
 ---
-category: Programming
-tags: [C++, Python, Tcl, Matlab, PHP, NodeJS, Dart]
+category: Programming Framework
+tags: [PyTorch, Tensorflow, Matplotlib, Numpy, Pandas, OpenCV]
 order: 1
 ---
