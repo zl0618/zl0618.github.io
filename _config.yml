@@ -78,10 +78,13 @@ collection_option:
     visibility: false
 
 navigation:
+navigation:
 - title: About
   url: /
 - title: Blog
   url: /blog/
+- title: Projects
+  url: /projects/
 
 
 include:
