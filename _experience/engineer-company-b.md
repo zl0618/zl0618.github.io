@@ -1,9 +1,9 @@
 ---
-title: Engineer
-institute: Company B
-institute-url: https://github.com/academicportfolio/
-duration: 2020 - 2022
-excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac sapien vel sem tristique consequat ac eu magna. Nulla condimentum erat quis enim tempor consequat.
+title: Generative Artifcial Intelligence Hackathon for Sustainable Development
+Goals
+institute: The University of Hong Kong, City University of Hong Kong, Hong Kong Baptist University, The Hong Kong University of Science and Technology
+duration: Oct 2024
+excerpt: Our team is one of the 10 fnalists in the GenAI Hackathon competition (Theme:
+Sustainable Food and Waste Systems).
 order: 2
-tags: [Skill A, Skill B, Skill C]
 ---
