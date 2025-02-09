@@ -1,5 +1,5 @@
 ---
-category: Hardware
-tags: [Arduino, FPGA, Raspberry Pi]
+category: Programming Language
+tags: [Python, LaTeX, C++, MATLAB]
 order: 2
 ---
