@@ -1,27 +1,7 @@
 ---
-title: My First Post
+title: How did I start my first Machine Learning Project
 layout: post
 category: Uncategorized
-excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac sapien vel sem tristique consequat ac eu magna. Nulla condimentum erat quis enim tempor consequat.
-featured: https://placehold.co/600x400
+excerpt: A noobie’s first exposure to the world of AI
+featured: [https://placehold.co/600x400](https://medium.com/@zoelam1215_35712/how-did-i-start-my-first-machine-learning-project-b05c6c31bc57)
 ---
-
-## Heading 2
-
-### Heading 3
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac sapien vel sem tristique consequat ac eu magna. Nulla condimentum erat quis enim tempor consequat.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac sapien vel sem tristique consequat ac eu magna. Nulla condimentum erat quis enim tempor consequat.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac sapien vel sem tristique consequat ac eu magna. Nulla condimentum erat quis enim tempor consequat.
-
-> Hello World
-
-```python
-print("Hello World!")
-```
-
-| Column 1 | Column Two |
-|---|---|
-|Key 1 | Value 1|
-|Key 2 | Value 2|
