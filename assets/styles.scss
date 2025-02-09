@@ -1,7 +1,7 @@
 ---
 ---
 {% if site.color-theme == "blue" %}
-$link: #0099ff;
+$link: #002147; /* Oxford blue */
 {% elsif site.color-theme == "red" %}
 $link: #862B0D;
 {% endif %}
@@ -13,12 +13,12 @@ $link: #862B0D;
 
 a {
     text-decoration: none;
-    color: #002147; /* Oxford blue */
+    color: $link; /* Oxford blue */
 }
 
 a:hover {
     text-decoration: underline;
-    color: #002147; /* Oxford blue */
+    color: $link; /* Oxford blue */
 }
 
 .ap-header {
@@ -88,8 +88,6 @@ a:hover {
     font-size: 16px;
 }
 
-
-
 .ap-nav ul li .ap-active {
     text-decoration: none;
     cursor: default;
@@ -112,12 +110,12 @@ a:hover {
 
 .ap-content a {
     text-decoration: none;
-    color: #002147; /* Oxford blue */
+    color: $link; /* Oxford blue */
 }
 
 .ap-content a:hover {
     text-decoration: underline;
-    color: #002147; /* Oxford blue */
+    color: $link; /* Oxford blue */
 }
 
 .ap-block {
@@ -128,7 +126,7 @@ a:hover {
     font-family: "DM Sans", sans-serif;
     font-weight: bold;
     font-size: 18px;
-    color: #002147; /* Oxford blue color */
+    color: $link; /* Oxford blue color */
 }
 
 .ap-experience {
@@ -139,11 +137,11 @@ a:hover {
     font-family: "DM Sans", sans-serif;
     font-weight: bold;
     font-size: 18px;
-    color: #002147; /* Oxford blue color */
+    color: $link; /* Oxford blue color */
 }
 
 .ap-experience-title a {
-    color: #002147;
+    color: $link;
     text-decoration: none;
 }
 
@@ -166,7 +164,7 @@ a:hover {
     font-family: "DM Sans", sans-serif;
     font-size: 14px;
     font-weight: 400;
-    color: #002147;
+    color: $link;
     margin: 6px 0px;
 }
 
@@ -212,14 +210,14 @@ a:hover {
     font-family: "DM Sans", sans-serif;
     font-weight: bold;
     font-size: 18px;
-    color: #002147; /* Oxford blue color */
+    color: $link; /* Oxford blue color */
 }
 
 .ap-skill-tags {
     font-family: "DM Sans", sans-serif;
     font-size: 14px;
     font-weight: 400;
-    color: #002147;
+    color: $link;
     margin: 6px 0px;
 }
 
@@ -238,12 +236,12 @@ a:hover {
     font-family: "DM Sans", sans-serif;
     font-weight: bold;
     font-size: 18px;
-    color: #002147; /* Oxford blue color */
+    color: $link; /* Oxford blue color */
 }
 
 .ap-project-title:hover {
     text-decoration: underline;
-    color: #002147;
+    color: $link;
 }
 
 .ap-project-year {
@@ -265,7 +263,7 @@ a:hover {
     font-family: "DM Sans", sans-serif;
     font-size: 14px;
     font-weight: 400;
-    color: #002147;
+    color: $link;
     margin: 6px 0px;
 }
 
@@ -316,12 +314,12 @@ a:hover {
     font-family: "DM Sans", sans-serif;
     font-weight: bold;
     font-size: 18px;
-    color: #002147; /* Oxford blue color */
+    color: $link; /* Oxford blue color */
 }
 
 .ap-certification-title:hover {
     text-decoration: underline;
-    color: #002147;
+    color: $link;
 }
 
 .ap-certification-institute {
@@ -374,7 +372,6 @@ a:hover {
     margin: 28px 0px 12px;
 }
 
-
 .ap-footer {
     margin: 40px 0px 20px;
     text-align: center;
@@ -415,7 +412,7 @@ a:hover {
 
 .ap-social ul li a:hover {
     text-decoration: underline;
-
+    color: $link;
 }
 
 .ap-social-header {
