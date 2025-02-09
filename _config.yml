@@ -72,7 +72,7 @@ collection_option:
     visibility: false
   certifications: 
     label: Certifications
-    visibility: true
+    visibility: false
   achievements: 
     label: Achievements
     visibility: false
