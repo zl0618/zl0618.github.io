@@ -1,5 +1,5 @@
 ---
-category: Simulation/EDA
-tags: [MATLAB Simulink, PSpice, Proteus, Intel Quartus Prime, Cadence Virtuoso]
+category: Languages
+tags: [Cantonese, English, Mandarin, German]
 order: 3
 ---
