@@ -33,14 +33,14 @@
                 </div>
             </div>
         </div>
-<nav class="ap-nav">
-    <ul>
-        {% for item in site.navigation %}
-        <li><a href={{item.url | relative_url}} class="{% if item.url == page.url %}ap-active{% endif %}">{{item.title}}</a></li>
-        {% endfor %}
-        <li><a href="{{ "assets/Zoe_Lam_CV.pdf" | absolute_url }}" target="_blank">CV</a></li>
-    </ul>
-</nav>
+    <nav class="ap-nav">
+        <ul>
+            {% for item in site.navigation %}
+            <li><a href={{item.url | relative_url}} class="{% if item.url == page.url %}ap-active{% endif %}">{{item.title}}</a></li>
+            {% endfor %}
+            <li><a href="{{ "assets/CV.pdf" | relative_url }}" target="_blank">CV</a></li>
+        </ul>
+    </nav>
 
         <div class="ap-line"></div>
 
